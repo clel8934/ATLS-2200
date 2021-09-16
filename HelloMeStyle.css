@@ -1,14 +1,27 @@
 
 h1 {
-  color: red;
+  color: rgb(250, 245, 102);
   font-family: Arial;
   font-weight: 600;
 }
 
 h3 {
-  background-color: rgb(32,39,49)
+  color: #9ACFDD
 }
 
 body {
-  background-color: rgb(32,39,49);
+  background-color: #202731);
+}
+
+p {
+  color: #CABAAB;
+}
+
+img {
+  Width: 20vw;
+  margin: 10px;
+}
+
+h2 {
+  color: #9ACFDD
 }
