@@ -4,3 +4,11 @@ h1 {
   font-family: Arial;
   font-weight: 600;
 }
+
+h3 {
+  background-color: rgb(32,39,49)
+}
+
+body {
+  background-color: rgb(32,39,49);
+}
