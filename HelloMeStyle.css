@@ -1,16 +1,13 @@
 
 h1 {
   color: rgb(250, 245, 102);
-  font-family: Arial;
   font-weight: 600;
 }
 
-h3 {
-  color: #9ACFDD
-}
 
 body {
-  background-color: #202731);
+  background-color: #202731;
+
 }
 
 p {
@@ -24,4 +21,6 @@ img {
 
 h2 {
   color: #9ACFDD
+  font-family: Monserrat
+  font-weight: 400;
 }
