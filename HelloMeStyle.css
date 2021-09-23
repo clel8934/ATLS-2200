@@ -8,7 +8,7 @@ h1 {
 
 body {
   background-color: #202731;
-  font-family: Arial;
+  font-family: Baskerville;
 }
 
 p {
@@ -30,6 +30,7 @@ h2 {
   font-weight: 400;
   text-align: center;
   border:solid;
+  font-family: Futura;
 }
 
 #links h2 {
