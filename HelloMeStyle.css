@@ -2,12 +2,13 @@
 h1 {
   color: rgb(250, 245, 102);
   font-weight: 600;
+  text-align: center;
 }
 
 
 body {
   background-color: #202731;
-
+  font-family: Arial;
 }
 
 p {
@@ -15,12 +16,28 @@ p {
 }
 
 img {
-  Width: 20vw;
+  Width: 40vw;
   margin: 10px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 h2 {
-  color: #9ACFDD
-  font-family: Montserrat;
+  color: #9ACFDD;
   font-weight: 400;
+  text-align: center;
+  border:solid;
+}
+
+#links h2 {
+  color: #D90B1C;
+  text-align: center;
+  border:solid;
+}
+
+#links li {
+  color: rgb(250, 245, 102);
 }
