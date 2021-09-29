@@ -7,35 +7,58 @@
 </head>
 
 <body>
-
   <section id ="hero">
-    <h1>Welcome to my site!</h1>
-      <img alt="man standing on mountain" src="photo-1483444308400-fb9510501d23.webp"
+    <h1  id"herotext">Welcome to my site!</h1>
+    <img alt="man standing on mountain" src="photo-1483444308400-fb9510501d23.webp">
   </section>
 
   <section id="one">
-    <h2>This is my first section</h2>
+    <div>
+    <h2>This is my <span id="first">first section</span></h2>
     <p>hello</p>
     <p>hi</p>
+    </div>
+    <div>
+      <h2>This is my first section</h2>
+      <p>HELLO</p>
+      <p>HI</p>
+    </div>
   </section>
 
   <section id="two">
-    <h2>This is my second section</h2>
-    <p>hello</p>
-    <p>hi</p>
+    <h2>This is my <a href="https://google.com">second section</a></h2>
+    <p>hello!</p>
+    <p>hi!</p>
   </section>
 
   <section id="three">
     <h2>This section contains a button</h2>
-    <button>Click this button</button>
+    <button id="mybutton">Click this button</button>
+    <button id="mybutton2">Click this button</button>
   </section>
 
-  <section>
-    <h2>This is my second section</h2>
-  </section>
+
 
 <script>
-  document.getElementById("mybutton").addEventListener("click", function(){alert(you pushed the button!)});
+  console.log("javascript working");
+  document.getElementById("mybutton").addEventListener("click", function(){alert("you pushed the button!")});
+  document.getElementById("mybutton2").addEventListener("click", buttonClicked);
+  document.getElementById("hero").addEventListener("click", heroClick);
+
+  function buttonClicked(){
+    alert("you pushed the second button!");
+    document.getElementById("herotext").innerHTML = "You are not welcome!";
+  }
+
+  function heroClicked(){
+    alert("You clicked the hero");
+  }
+
+  function buttonOne(){
+    alert("you pushed the button!");
+    document.getElementById("first").style.color = "red";
+    document.getElementById('three').style.backgroundColor = "skyblue";
+  }
 </script>
 </body>
 
