@@ -23,6 +23,11 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+
+  width: 500px; /* width of container */
+  height: 500px; /* height of container */
+  object-fit: cover;
+  border: 5px solid #CABAAB;
 }
 
 h2 {
@@ -41,4 +46,11 @@ h2 {
 
 #links li {
   color: rgb(250, 245, 102);
+}
+
+hr {
+  /* color: red; */
+  height: 4px;
+  background-color: #D90B1C;
+  border-color: #D90B1C;
 }
