@@ -1,0 +1,47 @@
+body{
+  background-color: #244A1D;
+}
+
+#header{
+  font-size: 50pt;
+  text-align:center;
+  font-family: 'Creepster', cursive;
+}
+
+#spookyfacts{
+  background-color: #B25200;
+  color: #F6FF79;
+  margin: 30vh 20vw;
+  padding: 10vh 10vw;
+  border-radius: 8px;
+  font-family: 'Special Elite', cursive;
+}
+
+button{
+  border-radius: 8px;
+  padding: 1vh 3vw;
+  float: right;
+  margin-top: 1vh;
+  background-color: #fffff5;
+  color: #4e664d;
+}
+
+#boo h2{
+  font-family: 'Creepster', cursive;
+  color: #DBADD3;
+  font-size: 30pt;
+}
+
+#mybutton{
+  background-color: #6C2C70;
+  color: #DBADD3;
+  padding: 20px 40px;
+  font-size: 20pt;
+  float: left;
+  margin: 30vh 30vw;
+
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; */
+}

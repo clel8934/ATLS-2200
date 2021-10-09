@@ -1,0 +1,27 @@
+section{
+  background-color: #76b887;
+  margin: 30vh 20vw;
+  padding: 10vh 10vw;
+  border-radius: 8px;
+}
+
+button{
+  border-radius: 8px;
+  padding: 1vh 3vw;
+  float: right;
+  margin-top: 1vh;
+  background-color: #fffff5;
+  color: #4e664d;
+}
+
+/* button:hover{
+
+}
+
+button: */
+
+h1{
+  color: #fffff5;
+  /* font-family:"Homemade Apple";
+  font-weight: ; */
+}

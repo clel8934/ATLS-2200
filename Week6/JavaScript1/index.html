@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JavaScript1</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<section id="header">
+<h1> Happy Halloween! </h1>
+</section>
+
+  <section id="spookyfacts">
+      <h1 id="ftext">Click the button for a spooky fact!</h1>
+      <button id="newfact">New Quote</button>
+  </section>
+
+
+  <script>
+    const quotes = ["Halloween originated from an ancient Celtic festival.","Irish immigrants brought Halloween to the U.S.","Trick-or-treating has existed since medieval times.","Candy wasn't given out to trick-or-treaters until the 1950s.","Skittles are America's favorite candy.","In a few states, the night before Halloween is known as Mischief Night."];
+    let quotecount = 0;
+
+    document.getElementById("newfact").addEventListener("click", buttonClicked);
+
+    function buttonClicked(){
+      console.log(quotes[quotecount]);
+      document.getElementById("ftext").innerHTML = quotes[quotecount];
+      if(quotecount>=5){
+        quotecount = 0;
+      }else{
+        quotecount++;
+      }
+    }
+  </script>
+
+
+  <section id="boo">
+    <h2>You probably should not press that button...</h2>
+    <div>
+    <h2> Stop while you can! </h2>
+    <button id="mybutton">DO NOT PRESS THE BUTTON</button>
+  </section>
+
+  <script>
+    console.log("javascript working");
+    document.getElementById("mybutton").addEventListener("click", function(){alert("BOO!")});
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
