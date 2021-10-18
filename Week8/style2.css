@@ -1,20 +1,53 @@
-section{
-  background-color: #76b887;
+body {
+  background-color: hotpink;
+}
+
+h2 {
+  font-size: 50pt;
+  text-align: center;
+  background-color: pink;
+  font-family: 'Rampart One', cursive;
+}
+
+img {
+  /* width:100vw;
+  position: center;
+  bottom: 300px; */
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+
+}
+
+
+
+section {
+  background-color: black;
   margin: 30vh 20vw;
   padding: 10vh 10vw;
   border-radius: 8px;
+
 }
 
-button{
+button {
   border-radius: 8px;
   padding: 1vh 3vw;
-  float: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;f
   margin-top: 1vh;
-  background-color: #fffff5;
-  color: #4e664d;
+  background-color: white;
+  color: hotpink;
+  font-size: 15pt
+
 }
 
 
 h1{
   color: #fffff5;
+  font-size: 35pt;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
 }
