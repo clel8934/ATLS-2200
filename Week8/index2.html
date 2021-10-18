@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Quote Machine</title>
+  <title>Quote Machine II</title>
   <link rel="stylesheet" href="style2.css">
-  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" -->
-</head>
+  </head>
+
 <body>
 <section>
-    <h1 id="qtext">Welcome to the quote machine, click the button to get a quote</h1>
-    <button id="newquote">New Quote</button>
+    <h1 id="qtext">This is The Burn Book</h1>
+    <button id="newquote">Mean Girls Quote</button>
 </section>
 
 <script>
-  const quotes = ["A room without books is like a body without a soul.","You only live once, but if you do it right, once is enough","Be the change that you wish to see in the world.","In three words I can sum up everything I've learned about life: it goes on.","To live is the rarest thing in the world. Most people exist, that is all.","Without music, life would be a mistake."];
+
+
+  const quotes = ["Get in loser, we're going shopping","That's why her hair is so big. It's full of secrets","I'm sorry that people are so jealous of me. But I can't help it that I'm popular","She doesn't even go here!","On Wednesdays we wear pink","That is so fetch!","I can't go out tonight.*fake coughs* "I'm sick","Ex-boyfriends are off-limits to friends. That's just, like, the rules of feminism"];
   let quotecount = 0;
 
   document.getElementById("newquote").addEventListener("click", buttonClicked);
@@ -20,12 +22,13 @@
   function buttonClicked(){
     console.log(quotes[quotecount]);
     document.getElementById("qtext").innerHTML = quotes[quotecount];
-    if(quotecount>=5){
+    if(quotecount>=7){
       quotecount = 0;
     }else{
       quotecount++;
     }
   }
+
 </script>
 
 </body>
