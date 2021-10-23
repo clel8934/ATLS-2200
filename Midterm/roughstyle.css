@@ -18,33 +18,33 @@ h1{
   width: 100px;
   height: 100px;
   background: red;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .circle-two {
   width: 100px;
   height: 100px;
-  background: red;
+  background: #465573;
   border-radius: 50%;
 }
 
 .circle-three {
   width: 100px;
   height: 100px;
-  background: red;
+  background: #F2F2F0;
   border-radius: 50%;
 }
 
 .circle-four {
   width: 100px;
   height: 100px;
-  background: red;
+  background: #58592A;
   border-radius: 50%;
 }
 
 .circle-five {
   width: 100px;
   height: 100px;
-  background: red;
+  background: #58592A;
   border-radius: 50%;
 }
