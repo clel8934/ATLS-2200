@@ -6,19 +6,38 @@ img{
   width: 20vw;
 }
 
-h2{
-  font-family: 'Yeseva One' cursive;
+h1{
+  font-family: Helvetica;
 }
 
-h1{
+h2{
+  font-family: 'Yeseva One', cursive;
+}
+
+h3{
   font-family: 'Encode Sans', sans-serif;
+}
+
+#button{
+  font-family: 'Encode Sans', sans-serif;
+  background: #ABB2D6;
+  color: #465573;
+  font-size:18pt;
+}
+
+#button2
+{
+  font-family: 'Encode Sans', sans-serif;
+  background: #E0CD6E;
+  color: #58592A;
+  font-size:18pt
 }
 
 .circle-one {
   width: 100px;
   height: 100px;
-  background: red;
-  /* border-radius: 50%; */
+  background: #ABB2D6;
+  border-radius: 50%;
 }
 
 .circle-two {
@@ -45,6 +64,6 @@ h1{
 .circle-five {
   width: 100px;
   height: 100px;
-  background: #58592A;
+  background: #E0CD6E;
   border-radius: 50%;
 }
