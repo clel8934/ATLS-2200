@@ -1,31 +1,26 @@
-<style>
-form {
-  margin-left: 20px;
+h1{
+  font-size: 45px;
+  font-family: "Hindi Siliguri";
 }
 
-#top {
-    background-color: rgb(30,100,0);
-    border:solid 1px white;
-  }
+body{
+  font-family: helvetica;
+  background-color: black;
+  color:white;
+}
 
-  #top h1 {
-      color: white;
-    }
+img{
+  width:25:vw;
+  margin: 20px;
+}
 
-  body {
-    background-color: #eba434
-  }
+form {
+  margin-left: 20px;
+  font-size: 3vw;
+}
 
-  ul {
-    color: red;
-    font-family: Arial;
-    font-weight: 600;
-  }
-
-  img {
-    Width: 20vw;
-    margin: 10px;
-  }
-</style>
-
-/*This is a comment*/
+#top h1{
+  color: rgb(255,200,255);
+  border: solid .5px white;
+  border-radius: 10px;
+}

@@ -1,0 +1,50 @@
+#solid{
+  border:solid black 2px;
+}
+
+img{
+  width: 20vw;
+}
+
+h2{
+  font-family: 'Yeseva One' cursive;
+}
+
+h1{
+  font-family: 'Encode Sans', sans-serif;
+}
+
+.circle-one {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+}
+
+.circle-two {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+}
+
+.circle-three {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+}
+
+.circle-four {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+}
+
+.circle-five {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+}
