@@ -1,0 +1,12 @@
+#tabs{
+  display: flex;
+  margin: 10vh 10vw 0 10vw;
+}
+
+.meal{
+  flex-grow: 1;
+  background-color: blue;
+  height: 100px:
+  width: auto;
+  border: 1px
+}
