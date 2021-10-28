@@ -1,3 +1,22 @@
+body {
+  background-color: #F2F2F0;
+}
+
+
 #header h1{
   font-family: 'Yeseva One', cursive;
+  color: #ABB2D6;
+  background-color: #465573;
+
 }
+
+
+
+
+/*
+#ABB2D6 -  light purple
+#465573 -  dark purple
+#E0CD6E - yellow
+#58592A - green
+#F2F2F0 - white
+*/
