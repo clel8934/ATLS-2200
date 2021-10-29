@@ -4,33 +4,31 @@
 }
 
 #items{
-  display: flex;
+  display:flex;
   margin: 0vh 10vw 0 10vw;
-  /* margin-top: 0px !important; */
+  padding-top: 80px;
+  border: 1px solid #aaa;
+  border-top: none;
 }
 
 .meal{
   flex-grow: 1;
-  /* background-color: blue; */
-  /* height: 100px: */
   width: auto;
-  border: 1px solid black;
+  border: 1px solid #aaa;
+  background-color:#EAECEF;
 }
-
 
 #image, .menu{
   flex-grow: 1;
-  width: auto;
-  height: 100px;
-  background-color: pink;
-  border: 1px solid black;
+  width:auto;
+  max-width: 50%;
 }
 
 h2{
-  padding-bottom: 0;
   margin-top: 28px;
+  padding-bottom: 0;
   font-size: 1.8em;
-  /* display: none; */
+  margin-left: 30px;
 }
 
 #dinnermenu, #brunchmenu{
@@ -38,5 +36,16 @@ h2{
 }
 
 .active{
-  background-color: pink;
+  background-color: white;
+  border-bottom:none;
+}
+
+img{
+  width: 80%;
+  max-height: 80%;
+  object-fit: cover;
+  display:block;
+  margin: auto;
+
+  /* object-position: 20% 10%; */
 }
