@@ -13,4 +13,8 @@ function setActive(e){
   console.log('clicked');
   e.target.classList.toggle('active');
   console.log(e.target.innerHTML);
+
+  if(e.target.tagName == "H2"){
+
+  }
 }
