@@ -20,13 +20,11 @@ img{
 }
 
 
-
-
-
-
 #tabs{
   display: flex;
   margin: 25vh 10vw 0 10vw;
+  background-color:#E0CD6E;
+  color: #58592A;
 }
 
 #items{
@@ -35,6 +33,7 @@ img{
   padding-top: 80px;
   border: 1px solid #aaa;
   border-top: none;
+  background-color:#E0CD6E;
 }
 
 .day{
@@ -53,8 +52,9 @@ img{
 h2{
   margin-top: 28px;
   padding-bottom: 0;
-  font-size: 1.8em;
+  font-size: 120%;
   margin-left: 30px;
+  font-family: 'Encode Sans', sans-serif;
 }
 
 #tuesday, #wednesday, #thursday, #friday, #saturday, #sunday{
@@ -62,8 +62,15 @@ h2{
 }
 
 .active{
-  background-color: white;
-  border-bottom:none;
+  background-color: #ABB2D6;
+  border-bottom: none;
+}
+
+h3{
+  color: #58592A;
+  font-size: 25pt;
+  text-align: center;
+  font-family: 'Encode Sans', sans-serif;
 }
 
 /* img{
