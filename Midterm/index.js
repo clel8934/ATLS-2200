@@ -2,7 +2,7 @@ let days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", 
 // let images = ["lunch.jpg", "dinner.jpg", "brunch.jpg"];
 let prevday;
 
-for(i=0; i<document.getElementsByClassName("day").length; i++){
+for (i=0; i<document.getElementsByClassName("day").length; i++){
   document.getElementsByClassName("day")[i].innerHTML = "<h2>" + days[i] + "</h2>";
 
   document.getElementsByClassName("day")[i].addEventListener('click', setActive, false);
@@ -23,7 +23,7 @@ function setActive(e){
   prevday = document.getElementsByClassName("active")[0].id;
   if(prevday != undefined){
     document.getElementById(prevday).classList.toggle("active");
-    document.getElementById(prevday +"list").style.display = "none";
+    document.getElementById(prevday + "menu").style.display = "none";
 
   }
   // console.log("previous meal: " + prevmeal);
@@ -38,7 +38,7 @@ function setActive(e){
 
   day = document.getElementsByClassName('active')[0].id;
   console.log(day);
-  document.getElementById(day +"list").style.display = "block";
+  document.getElementById(day +"menu").style.display = "block";
   // document.getElementById('image').innerHTML = "<img src='assets/" + meal + ".jpg' >";
 
 }
