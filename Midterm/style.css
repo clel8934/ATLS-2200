@@ -9,7 +9,9 @@ body {
   background-color: #465573;
   text-align: center;
   font-size: 72pt;
-
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img{
@@ -23,12 +25,10 @@ img{
 #tabs{
   display: flex;
   margin: 25vh 10vw 0 10vw;
-  background-color:#E0CD6E;
-  color: #58592A;
 }
 
 #items{
-  display:flex;
+  display: flex;
   margin: 0vh 10vw 0 10vw;
   padding-top: 80px;
   border: 1px solid #aaa;
@@ -57,7 +57,7 @@ h2{
   font-family: 'Encode Sans', sans-serif;
 }
 
-#tuesday, #wednesday, #thursday, #friday, #saturday, #sunday{
+#tuesdaymenu, #wednesdaymenu, #thursdaymenu, #fridaymenu, #saturdaymenu, #sundaymenu{
   display: none;
 }
 
@@ -81,7 +81,7 @@ h3{
   margin: auto; */
 
   /* object-position: 20% 10%; */
-}
+
 
 
 /* .rectangle{
