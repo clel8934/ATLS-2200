@@ -1,5 +1,13 @@
 body{
-  background-color:
+  background-color: #fffae8;
+}
+
+#header h1{
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+  font-size: 10rem;
+  text-decoration: underline;
+
 }
 
 .row {
@@ -8,9 +16,10 @@ body{
   padding: 0 4px;
 }
 
+
 .column {
-  flex: 25%;
-  max-width: 25%;
+  flex: 32.5%;
+  max-width: 32.5%;
   padding: 0 4px;
 }
 
@@ -20,12 +29,14 @@ body{
   width: 100%;
 }
 
+
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
     max-width: 50%;
   }
 }
+
 
 @media screen and (max-width: 600px) {
   .column {
