@@ -19,5 +19,37 @@
 
 
 
+  <section id="designfacts">
+      <h1 id="ftext">Click the button for a graphic design fact!</h1>
+      <button id="newfact">New Fact</button>
+  </section>
+
+
+  <script>
+    const quotes = ["In 1971, the iconic Nike logo was designed by a student named Carolyn Davidson for just $35.","Helvetica was first introduced in the 20th Century and soon became one of the most popular fonts in the world","The first copies of the U.S Declaration of Independence were printed using the font Caslon","People spend around 6.4 seconds focused on a brand logo when visiting a website","More than 50% of graphic designers are female","Egyptians are often cited as the first logo designers"];
+    let quotecount = 0;
+
+    document.getElementById("newfact").addEventListener("click", buttonClicked);
+
+    function buttonClicked(){
+      console.log(quotes[quotecount]);
+      document.getElementById("ftext").innerHTML = quotes[quotecount];
+      if(quotecount>=5){
+        quotecount = 0;
+      }else{
+        quotecount++;
+      }
+    }
+  </script>
+
+
+  <section id="inspo">
+    <h1> Click here to see some of my design inspiration on Pinterest </h1>
+    <a href="https://pin.it/7xXZAVs" target="_blank">My Design Pinterest Board</a>
+  </section>
+
+
+
+
 </body>
 <html>
