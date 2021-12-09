@@ -1,8 +1,8 @@
 div{
-  background-color: green;
+  background-color: pink;
 }
 
-#art{
+#foods{
   display:flex;
 }
 
@@ -15,10 +15,10 @@ div{
 img{
   max-width: 25vw;
   height: 30vh;
-  width: 25vh;
+  width:25vw;
+  object-fit: cover;
   padding:10px;
-  /* object-fit:cover; */
-  object-position: 0px 0px 20px 0px;
+  /* object-position: 0px 0px 20px 0px; */
 }
 
 button{
