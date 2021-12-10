@@ -1,17 +1,61 @@
+/* GRAY - #414042, WHITE - #ede4dd, RED - #9d5551, BLUE - #abcece
 
+font-family: bookman-jf-pro, serif;
+font-weight: 400;
+font-style: normal;
 
+font-family: pt-sans-pro, sans-serif;
+font-weight: 300;
+font-style: normal;
 
+<link rel="stylesheet" href="https://use.typekit.net/icn5xzt.css">
 
 
 /* INDEX */
 
+#index{
+  background-color: #ede4dd;
+}
+
+#header h1{
+  font-family: bookman-jf-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50pt;
+  text-align: center;
+  color: #414042;
+}
+
+#header h2{
+  font-family: bookman-jf-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25pt;
+  text-align: center;
+  color: #9d5551;
+}
+
+#header p{
+  font-family: pt-sans-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align:center;
+  margin: 10px;
+}
+
 #designfacts{
-  background-color: #B25200;
-  color: #F6FF79;
+  background-color: #abcece;
+  color: #ede4dd;
   margin: 30vh 20vw;
   padding: 10vh 10vw;
   border-radius: 8px;
-  font-family: 'Special Elite', cursive;
+  font-family: pt-sans-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+#designfacts h1{
+  font-size: 30pt;
 }
 
 #newfact {
@@ -19,21 +63,100 @@
     padding: 1vh 3vw;
     float: right;
     margin-top: 1vh;
-    background-color: pink;
-    color: #4e664d;
+    background-color: #414042;
+    color: #ede4dd;
   }
+
+
+  /* NAV */
+  nav{
+    display:flex;
+    width: 50vw;
+    justify-content: right;
+    flex-wrap: wrap;
+    margin: 30px auto 30px calc(95% - 63vw);
+  }
+
+  nav a{
+
+    margin-left: 50px;
+    text-decoration: none;
+    text-align: center;
+    color: #1f1b1b;
+    font-family: pt-sans-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #414042;
+    font-size: 20pt;
+  }
+
+  .active1{
+    color: #9d5551;
+  }
+
+  #inspo div{
+    font-family: bookman-jf-pro, serif;
+    font-weight: 400;
+    font-size: 30pt;
+    font-style: normal;
+    float: left;
+    width: calc(100% - 350px - 10px);
+  }
+
+ #inspo img{
+   width: 350px;
+    float: left;
+    margin-right: 10px;
+
+   /* display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center; */
+ }
 
 
 /* CONTACT */
 
   #contactimg {
     width:50px;
+
+
   }
 
 
 
 /* PORTFOLIO */
-*{box-sizing:border-box}
+/* SLIDESHOW */
+{box-sizing:border-box}
+
+#porty{
+  background-color: #414042;
+}
+
+#navport{
+  background-color: #ede4dd;
+  display:flex;
+  width: 50vw;
+  justify-content: right;
+  flex-wrap: wrap;
+  margin: 30px auto 30px calc(95% - 63vw);
+}
+
+#navport a{
+  margin-left: 50px;
+  text-decoration: none;
+  text-align: center;
+  color: #1f1b1b;
+  font-family: pt-sans-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #414042;
+  font-size: 20pt;
+}
+
+#navport .active2{
+  color: #9d5551;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -118,6 +241,21 @@
   animation-duration: 1.5s;
 }
 
+#portimg1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#portimg2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
@@ -127,3 +265,70 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+
+
+
+
+
+
+/* GALLERY */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+  flex: 32.5%;
+  max-width: 32.5%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+
+  #navcon{
+    background-color: #ede4dd;
+    display:flex;
+    width: 50vw;
+    justify-content: right;
+    flex-wrap: wrap;
+    margin: 30px auto 30px calc(95% - 63vw);
+  }
+
+  #navcon a{
+    margin-left: 50px;
+    text-decoration: none;
+    text-align: center;
+    font-family: pt-sans-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #414042;
+    font-size: 20pt;
+  }
+
+  #navcon .active3{
+    color: #9d5551;
+  }
