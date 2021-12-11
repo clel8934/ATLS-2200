@@ -146,7 +146,7 @@ font-style: normal;
   margin-left: 50px;
   text-decoration: none;
   text-align: center;
-  color: #1f1b1b;
+
   font-family: pt-sans-pro, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -308,8 +308,49 @@ font-style: normal;
     max-width: 100%;
   }
 
+#contacts{
+  background-color: black;
+}
 
-  #navcon{
+  #navcont{
+    display:flex;
+    width: 50vw;
+    justify-content: right;
+    flex-wrap: wrap;
+    margin: 30px auto 30px calc(95% - 63vw);
+  }
+
+  #navcont a{
+    margin-left: 50px;
+    text-decoration: none;
+    text-align: center;
+
+    font-family: pt-sans-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #fffff;
+    font-size: 20pt;
+  }
+
+  #navcont .active3{
+    color: #9d5551;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* #navcon{
     background-color: #ede4dd;
     display:flex;
     width: 50vw;
@@ -331,4 +372,4 @@ font-style: normal;
 
   #navcon .active3{
     color: #9d5551;
-  }
+  } */
