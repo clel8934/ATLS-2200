@@ -81,11 +81,10 @@ font-style: normal;
   }
 
   #nav a{
-
     margin-left: 50px;
     text-decoration: none;
     text-align: center;
-    color: #1f1b1b;
+
     font-family: pt-sans-pro, sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -93,7 +92,7 @@ font-style: normal;
     font-size: 20pt;
   }
 
-   .active1{
+  #nav .active1{
     color: #9d5551;
   }
 
@@ -148,17 +147,15 @@ font-style: normal;
   margin-right: auto;
 }
 
-}
-
 #navport a{
-
   margin-left: 50px;
   text-decoration: none;
   text-align: center;
+
   font-family: pt-sans-pro, sans-serif;
   font-weight: 300;
   font-style: normal;
-  color: #ede4dd;
+  color: #414042;
   font-size: 20pt;
 }
 
