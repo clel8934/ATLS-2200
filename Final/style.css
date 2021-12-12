@@ -143,10 +143,10 @@ font-style: normal;
   justify-content: right;
   flex-wrap: wrap;
   margin: 30px auto 30px calc(97% - 63vw);
-  color: #ede4dd;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
 
 }
 
