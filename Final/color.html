@@ -5,13 +5,39 @@
 
 <link rel="stylesheet" href="https://use.typekit.net/icn5xzt.css">
 <link rel="stylesheet" href="https://use.typekit.net/icn5xzt.css">
-<link rel="stylesheet" href="style.css">
+<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="style3.css">
 </head>
 
-<body id="index">
-  <nav id="nav">
+<body id="guesser">
+
+  <nav id="colornav">
     <a href="index.html" >Home</a>
     <a href="portfolio.html">Portfolio</a>
     <a href="contact.html">Contact</a>
     <a href="color.html" class="active4">Color Guess</a>
   </nav>
+
+  <h1>The Great <span id="color-display">RGB</span> Guessing Game</h1>
+  <div id ="stripe">
+    <button id="reset">New Colors</button>
+    <span id="message"></span>
+    <button class="mode">Easy</button>
+    <button class="mode selected">Hard</button>
+  </div>
+  <div id="container">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+  </div>
+
+  <script type="text/javascript" src="index.js"></script>
+
+
+
+
+  </body>
+  </html>

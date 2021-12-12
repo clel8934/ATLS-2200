@@ -8,7 +8,7 @@ body{
     width: 50vw;
     justify-content: right;
     flex-wrap: wrap;
-    margin: 30px auto 30px calc(90% - 63vw);
+    margin: 30px auto 30px calc(97% - 63vw);
   }
 
   #navcont a{
