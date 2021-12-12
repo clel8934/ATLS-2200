@@ -69,7 +69,7 @@ font-style: normal;
 
 
   /* NAV */
-  nav{
+  #nav{
     display:flex;
     width: 50vw;
     justify-content: right;
@@ -80,7 +80,7 @@ font-style: normal;
     margin-right: auto;
   }
 
-  nav a{
+  #nav a{
 
     margin-left: 50px;
     text-decoration: none;
