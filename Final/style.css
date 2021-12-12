@@ -75,9 +75,7 @@ font-style: normal;
     justify-content: right;
     flex-wrap: wrap;
     margin: 30px auto 30px calc(97% - 63vw);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
   }
 
   #nav a{
@@ -88,7 +86,7 @@ font-style: normal;
     font-family: pt-sans-pro, sans-serif;
     font-weight: 300;
     font-style: normal;
-    color: #414042;
+    color: #ede4dd;
     font-size: 20pt;
   }
 
@@ -142,9 +140,7 @@ font-style: normal;
   justify-content: right;
   flex-wrap: wrap;
   margin: 30px auto 30px calc(97% - 63vw);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
 }
 
 #navport a{
